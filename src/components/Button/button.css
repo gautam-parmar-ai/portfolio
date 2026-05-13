@@ -1,0 +1,58 @@
+.bb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+  outline: none;
+}
+
+.bb-btn:focus-visible {
+  box-shadow: 0 0 0 4px rgba(21, 93, 252, 0.25);
+}
+
+.bb-btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(21, 93, 252, 0.18);
+}
+
+.bb-btn--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 40px rgba(21, 93, 252, 0.26);
+}
+
+.bb-btn--secondary {
+  background: transparent;
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+:root[data-theme="dark"] .bb-btn--secondary {
+  background: #ffffff;
+  color: #000000;
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+:root[data-theme="dark"] .bb-btn--secondary:hover {
+  background: rgba(255, 255, 255, 0.92);
+  color: #000000;
+}
+
+.bb-btn--secondary:hover {
+  transform: translateY(-1px);
+  background: rgba(21, 93, 252, 0.06);
+  border-color: rgba(21, 93, 252, 0.35);
+}

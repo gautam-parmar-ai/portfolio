@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #155dfc;
+  --color-bg: #ffffff;
+  --color-text: #212529;
+  --color-text-secondary: #6c757d;
+  --color-surface: #f8f9fa;
+  --color-border: #e9ecef;
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #0b1220;
+  --color-text: #ffffff;
+  --color-text-secondary: #ffffff;
+  --color-surface: #121b2d;
+  --color-border: rgba(0, 0, 0, 0.18);
+}

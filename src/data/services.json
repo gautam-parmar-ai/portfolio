@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Development",
+    "description": "Build modern, responsive UI with clean architecture.",
+    "icon": "frontend"
+  },
+  {
+    "id": 2,
+    "title": "MERN Stack Development",
+    "description": "Full-stack solutions with MongoDB, Express, and React.",
+    "icon": "mern"
+  },
+  {
+    "id": 3,
+    "title": "Responsive UI Design",
+    "description": "Premium visuals that work flawlessly across devices.",
+    "icon": "responsive"
+  },
+  {
+    "id": 4,
+    "title": "API Integration",
+    "description": "Reliable API integration with strong error handling.",
+    "icon": "api"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "frontend": [
+    { "name": "HTML", "color": "#E34F26", "logo": "html" },
+    { "name": "CSS", "color": "#1572B6", "logo": "css" },
+    { "name": "JavaScript(ES6+)", "color": "#F7DF1E", "logo": "js" },
+    { "name": "React.js", "color": "#61DAFB", "logo": "react" },
+    { "name": "Next.js", "color": "#61DAFB", "logo": "next" },
+    { "name": "TypeScript", "color": "#3178C6", "logo": "ts" },
+    { "name": "Tailwind css", "color": "#61DAFB", "logo": "tailwind" },
+    { "name": "Chakra UI", "color": "#61DAFB", "logo": "chakra" },
+    { "name": "Axios", "color": "#61DAFB", "logo": "axios" }
+  ],
+  "backend": [
+    { "name": "Node.js", "color": "#3C873A", "logo": "node" },
+    { "name": "Express", "color": "#000000", "logo": "express" },
+    { "name": "REST APIs", "color": "#6C757D", "logo": "api" },
+    { "name": "JWT Authentication", "color": "#000000", "logo": "jwt" },
+    { "name": "Bcrypt", "color": "#000000", "logo": "bcrypt" }
+  ],
+  "CMS & E-Comm": [
+    { "name": "WordPress", "color": "#3C873A", "logo": "wordpress" },
+    { "name": "WooCommerce", "color": "#000000", "logo": "woocommerce" }
+  ],
+  "database": [
+    { "name": "MongoDB", "color": "#47A248", "logo": "mongo" },
+    { "name": "Mongoose", "color": "#00758F", "logo": "mongoose" }
+  ],
+  "Cloud & Media": [
+    { "name": "Cloudinary", "color": "#47A248", "logo": "cloudinary" },
+    { "name": "Multer", "color": "#00758F", "logo": "multer" },
+    { "name": "AWS", "color": "#00758F", "logo": "aws" }
+  ],
+  "Payments": [
+    { "name": "Stripe API Integration", "color": "#47A248", "logo": "stripe" }
+  ],
+  "tools": [
+    { "name": "Git", "color": "#F05032", "logo": "git" },
+    { "name": "VS Code", "color": "#007ACC", "logo": "vscode" },
+    { "name": "Figma", "color": "#F24E1E", "logo": "figma" },
+    { "name": "Postman", "color": "#FF6C37", "logo": "postman" }
+  ],
+  "deployment": [
+    { "name": "Vercel", "color": "#000000", "logo": "vercel" },
+    { "name": "Netlify", "color": "#00C7B7", "logo": "netlify" },
+    { "name": "GitHub Pages", "color": "#181717", "logo": "gh-pages" },
+    { "name": "Docker", "color": "#2496ED", "logo": "docker" }
+  ]
+}

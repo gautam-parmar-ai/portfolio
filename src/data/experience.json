@@ -1,0 +1,47 @@
+[
+  {
+    "id": "digital-key",
+    "role": "Front End Engineer & SEO Specialist",
+    "company": "The Digital Key",
+    "location": "New Delhi, India",
+    "workMode": "On-site",
+    "start": "May 2024",
+    "end": "Jan 2025",
+    "highlights": [
+      "Developed and customised 15+ WordPress themes and plugins, delivering tailored e-commerce solutions for clients via WooCommerce integration",
+      "Built 20+ responsive, mobile-first websites by converting design assets into component-based HTML, CSS, and JavaScript",
+      "Improved site performance by 30% - 40% through plugin audits, code optimisation, and caching strategies, reducing average page load times",
+      "Implemented on-page SEO best practices in code structure and content, increasing client search engine visibility",
+      "Reduced post-launch technical issues by 25% through proactive maintenance, debugging, and performance monitoring"
+    ]
+  },
+  {
+    "id": "max-avex",
+    "role": "Front End Engineer",
+    "company": "Max Avex Technology",
+    "location": "New Delhi, India",
+    "workMode": "On-site",
+    "start": "May 2023",
+    "end": "May 2024",
+    "highlights": [
+      "Collaborated with UX/UI designers to translate 25+ complex design mockups into functional, pixel-accurate web interfaces",
+      "Enhanced mobile responsiveness across all projects, ensuring consistent user experience across devices and screen sizes and reducing layout issues by 35%",
+      "Resolved front-end bugs promptly and implemented SEO best practices in code and content structure",
+      "Optimised performance through image compression, code minification, caching techniques, reducing load times by 40%"
+    ]
+  },
+  {
+    "id": "intern-nexus",
+    "role": "Full Stack Engineer Intern",
+    "company": "InternNexus",
+    "location": "New Delhi, India",
+    "workMode": "Remote",
+    "start": "Aug 2022",
+    "end": "Dec 2022",
+    "highlights": [
+      "Applied Node.js for server-side scripting, enabling asynchronous request processing and improved application responsiveness",
+      "Integrated 5+ third-party REST APIs for seamless data exchange, enhancing application functionality across services",
+      "Collaborated with cross-functional teams to design and implement solutions for complex business requirements"
+    ]
+  }
+]

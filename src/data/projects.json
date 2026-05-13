@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "title": "Sicilia Collection — Fashion E-Commerce Platform ",
+    "description": "A full-stack ecommerce web application built with the MERN stack, featuring a customer-facing storefront, an admin dashboard, and a REST API backend.",
+    "image": "/src/assets/projects/project1.jpg",
+    "techStack": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Stripe",
+      "Tailwind CSS",
+      "Express.js",
+      "Bcrypt",
+      "JSON Web Tokens (JWT)",
+      "Cloudinary (image uploads)",
+      "Multer",
+      "React Toastify"
+    ],
+    "category": "fullstack",
+    "githubUrl": "https://github.com/gautam-parmar-ai/SiciliaCollection",
+    "liveUrl": "https://sicilia-collection.vercel.app"
+  },
+  {
+    "id": 2,
+    "title": "Tlovo - Full Stack Food Delivery Web Application ",
+    "description": "A full-stack food delivery web application built with the MERN stack, featuring a customer-facing storefront, an admin dashboard, and a REST API backend with Stripe payment integration.",
+    "image": "/src/assets/projects/project2.jpg",
+    "techStack": [
+      "React",
+      "API",
+      "Axios",
+      "Express.js",
+      "MongoDB (Atlas)",
+      "Mongoose",
+      "Bcrypt",
+      "JSON Web Tokens (JWT)",
+      "Cloudinary (image uploads)",
+      "Multer",
+      "React Toastify"
+    ],
+    "category": "frontend",
+    "githubUrl": "https://github.com/gautam-parmar-ai/Tlovo",
+    "liveUrl": "https://tlovo.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "BG Removal AI-Powered SaaS Application ",
+    "description": "A full-stack AI-powered background removal web application built with the MERN stack, featuring Clerk authentication, credit-based usage system, and the Clipdrop API for background removal.",
+    "image": "/src/assets/projects/project3.jpg",
+    "techStack": [
+      "React",
+      "API",
+      "Axios",
+      "Express.js",
+      "MongoDB (Atlas)",
+      "Mongoose",
+      "Bcrypt",
+      "Clerk (authentication)",
+      "JSON Web Tokens (JWT)",
+      "Cloudinary (image uploads)",
+      "Multer",
+      "React Toastify",
+      "Clipdrop API (AI background removal)",
+      "Clerk Webhooks (Svix)"
+    ],
+    "category": "SAAS",
+    "githubUrl": "https://github.com/gautam-parmar-ai/Bg-removal",
+    "liveUrl": "https://gp-bg-removal.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Pokédex – React Pokémon Explorer",
+    "description": "A modern and responsive Pokédex web application built using React.js and powered by the PokéAPI. Browse Pokémon, search by name, view stats, abilities, types, and enjoy a clean UI with smooth user experience.",
+    "image": "/src/assets/projects/project4.png",
+    "techStack": ["CSS", "React", "PokéAPI"],
+    "category": "frontend",
+    "githubUrl": "https://github.com/gautam-parmar-ai/pokedex_truelayer",
+    "liveUrl": "https://gautam-parmar-ai.github.io/pokedex_truelayer/"
+  },
+  {
+    "id": 4,
+    "title": "Dice Game",
+    "description": "A fun and interactive Dice Game built using HTML, CSS, and JavaScript. Roll the dice, compete with another player, and enjoy a clean and responsive gaming experience directly in the browser.",
+    "image": "/src/assets/projects/project5.jpg",
+    "techStack": ["CSS", "React"],
+    "category": "frontend",
+    "githubUrl": "https://github.com/gautam-parmar-ai/DiceGame",
+    "liveUrl": "https://dice-game-kohl-mu.vercel.app/"
+  }
+]
