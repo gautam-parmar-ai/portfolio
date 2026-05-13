@@ -16,6 +16,15 @@ import projects from "../../data/projects.json";
 import skills from "../../data/skills.json";
 import experience from "../../data/experience.json";
 
+import avatarUrl from "../../assets/images/avatar.jpg";
+import resumeUrl from "../../assets/resume/resume.pdf";
+
+import project1Url from "../../assets/projects/project1.jpg";
+import project2Url from "../../assets/projects/project2.jpg";
+import project3Url from "../../assets/projects/project3.jpg";
+import project4Url from "../../assets/projects/project4.png";
+import project5Url from "../../assets/projects/project5.jpg";
+
 import "./home.css";
 
 export default function Home() {
@@ -98,7 +107,7 @@ export default function Home() {
                   <Button
                     variant="secondary"
                     as="a"
-                    href="/src/assets/resume/resume.pdf"
+                    href={resumeUrl}
                     download
                     ariaLabel={t("cta_download_resume")}
                   >
@@ -146,7 +155,7 @@ export default function Home() {
                 <div className="bb-avatarWrap">
                   <img
                     className="bb-avatar"
-                    src="/src/assets/images/avatar.jpg"
+                    src={avatarUrl}
                     alt="Profile avatar"
                     loading="lazy"
                   />
@@ -372,43 +381,55 @@ export default function Home() {
             </div>
 
             <div className="bb-projectGrid">
-              {projects.map((p) => (
-                <article key={p.id} className="bb-projectCard" data-reveal>
-                  <img
-                    className="bb-projectImg"
-                    src={p.image}
-                    alt={`${p.title} thumbnail`}
-                    loading="lazy"
-                  />
-                  <div className="bb-projectBody">
-                    <div className="bb-projectTitle">{p.title}</div>
-                    <p className="bb-projectDesc">{p.description}</p>
-                    <div className="bb-tagRow">
-                      {p.techStack.map((tag) => (
-                        <span key={tag} className="bb-tag">
-                          {tag}
-                        </span>
-                      ))}
+              {projects.map((p) => {
+                const imageByKey = {
+                  project1: project1Url,
+                  project2: project2Url,
+                  project3: project3Url,
+                  project4: project4Url,
+                  project5: project5Url,
+                };
+
+                const projectImg = imageByKey[p.image] ?? "";
+
+                return (
+                  <article key={p.id} className="bb-projectCard" data-reveal>
+                    <img
+                      className="bb-projectImg"
+                      src={projectImg}
+                      alt={`${p.title} thumbnail`}
+                      loading="lazy"
+                    />
+                    <div className="bb-projectBody">
+                      <div className="bb-projectTitle">{p.title}</div>
+                      <p className="bb-projectDesc">{p.description}</p>
+                      <div className="bb-tagRow">
+                        {p.techStack.map((tag) => (
+                          <span key={tag} className="bb-tag">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <div className="bb-projectLinks">
+                        <a
+                          className="bb-linkIcon"
+                          href={p.githubUrl}
+                          aria-label={`${p.title} GitHub`}
+                        >
+                          GH
+                        </a>
+                        <a
+                          className="bb-linkIcon"
+                          href={p.liveUrl}
+                          aria-label={`${p.title} Live demo`}
+                        >
+                          Live
+                        </a>
+                      </div>
                     </div>
-                    <div className="bb-projectLinks">
-                      <a
-                        className="bb-linkIcon"
-                        href={p.githubUrl}
-                        aria-label={`${p.title} GitHub`}
-                      >
-                        GH
-                      </a>
-                      <a
-                        className="bb-linkIcon"
-                        href={p.liveUrl}
-                        aria-label={`${p.title} Live demo`}
-                      >
-                        Live
-                      </a>
-                    </div>
-                  </div>
-                </article>
-              ))}
+                  </article>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -428,7 +449,7 @@ export default function Home() {
                 <Button
                   as="a"
                   variant="primary"
-                  href="/src/assets/resume/resume.pdf"
+                  href={resumeUrl}
                   download
                   ariaLabel="Download Resume"
                 >
